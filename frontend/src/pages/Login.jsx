@@ -11,7 +11,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  // const navigateTo = useNavigate();
+  const navigateTo = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
