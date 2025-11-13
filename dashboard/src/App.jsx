@@ -26,8 +26,8 @@ const App = () => {
             withCredentials: true,
           }
         );
-        // setIsAuthenticated(true);
-        // setAdmin(response.data.user);
+        setIsAuthenticated(true);
+        setAdmin(response.data.user);
       } catch (error) {
         setIsAuthenticated(false);
         setAdmin({});
