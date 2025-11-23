@@ -75,7 +75,6 @@ const AppointmentForm = () => {
         setLastName(""),
         setEmail(""),
         setPhone(""),
-        setNic(""),
         setDob(""),
         setGender(""),
         setAppointmentDate(""),
